@@ -1,17 +1,18 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'start' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
 2 info using npm@2.1.17
 3 info using node@v0.10.35
-4 verbose stack Error: ENOENT, open '/Users/ogroovey/nodetut/package.json'
-5 verbose cwd /Users/ogroovey/nodetut
-6 error Darwin 13.4.0
-7 error argv "node" "/usr/local/bin/npm" "start"
-8 error node v0.10.35
-9 error npm  v2.1.17
-10 error path /Users/ogroovey/nodetut/package.json
-11 error code ENOENT
-12 error errno 34
-13 error enoent ENOENT, open '/Users/ogroovey/nodetut/package.json'
-13 error enoent This is most likely not a problem with npm itself
-13 error enoent and is related to npm not being able to find a file.
-14 verbose exit [ 34, true ]
+4 error install Couldn't read dependencies
+5 verbose stack Error: ENOENT, open '/Users/ogroovey/nodetut/package.json'
+6 verbose cwd /Users/ogroovey/nodetut
+7 error Darwin 13.4.0
+8 error argv "node" "/usr/local/bin/npm" "install"
+9 error node v0.10.35
+10 error npm  v2.1.17
+11 error path /Users/ogroovey/nodetut/package.json
+12 error code ENOPACKAGEJSON
+13 error errno 34
+14 error package.json ENOENT, open '/Users/ogroovey/nodetut/package.json'
+14 error package.json This is most likely not a problem with npm itself.
+14 error package.json npm can't find a package.json file in your current directory.
+15 verbose exit [ 34, true ]
