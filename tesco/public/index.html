@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Tesco</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="header">
+	<input type="text" id="searchKey"/>
+	<button id="btnSearch">Search</button>
+	<button id="btnAdd">New Music</button>
+</div>
+
+
+<div class="leftArea">
+<ul id="productList"></ul>
+</div>
+
+<form id="productForm">
+	
+<div class="mainArea">
+
+<label>Id -</label>
+<input id="productId" name="id" type="text" disabled />
+
+<label>Artist - </label>
+<input type="text" id="name" name="Artist" required>
+
+<label>Album - </label>
+<input type="text" id="grapes" name="Album"/>
+
+<label>Genre - </label>
+<input type="text" id="country" name="Genre"/>
+
+<label>Parental Guidence - </label>
+<input type="text" id="region" name="Parental Guidence"/>
+
+<label>Year - </label>
+<input type="text" id="year" name="Year"/>
+
+<button id="btnSave">Save</button>
+<button id="btnDelete">Delete</button>
+
+</div>
+
+<div class="rightArea">
+
+<img id="pic" height="300"/>
+
+<label>Notes:</label>
+<textarea id="description" name="description"></textarea>
+</div>
+
+</form>
+
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
